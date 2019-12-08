@@ -44,6 +44,11 @@
   background-color: #2088d5;
 }
 
+.action__button--start {
+  @extend %action__button;
+  background-color: #5c20d5;
+}
+
 @media (min-width: 768px) {
   .action {
     grid-template-columns: repeat(2, 1fr);
