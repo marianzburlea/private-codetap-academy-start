@@ -1,0 +1,34 @@
+[
+  {
+    "en": {
+      "title": "How do I get hired quickly?",
+      "description": [
+        "To get hired as soon as possible you want to gain lots of experience and knowledge. During the last three years we have created step-by-step courses, both for those starting from scratch, without previous knowledge, and for those who want to deepen or fill in the gaps. We start the practice immediately and learn exactly what we need to be able to work in teams and on big projects."
+      ]
+    },
+    "ro": {
+      "title": "Cum ma angajez repede?",
+      "description": [
+        "Pentru a te angaja cât mai repede vrei să dobândești experiență și cunoștințe cât mai repede posibil. În ultimii trei ani am creat cursuri pas cu pas, atât pentru cei ce încep de la zero, fără cunoștințe anterioare, cât și pentru cei ce vor să aprofundeze sau să umple goluri. Noi începem practica imediat și învățăm exact ce ne trebuie pentru a putea lucra în echipe și pe proiecte mari."
+      ]
+    }
+  },
+  {
+    "en": {
+      "title": "What will I have to do at work?",
+      "description": [
+        "Once hired, you will be introduced to the group you will spend your time with. Everyone will greet you and tell you the name, the position they occupy and other useful information, so that when you need help, you know who to call.",
+        "You will be introduced to the system and routine by which you will take tasks to solve. Tasks are for all levels, so beginners will take easier tasks, the most interesting advances. Most beginners get used to the new job between 4 and 6 weeks following in a short time to feel at home, very comfortable.",
+        "All of these things will not be new to you, because at CodeTap Academy, you will do all these things in preparation for what you receive through mentoring. When the time comes to hire, it will be just a change of address."
+      ]
+    },
+    "ro": {
+      "title": "Ce va trebui să fac la locul de muncă?",
+      "description": [
+        "Odată angajat, vei fi introdus colectivului cu care îți vei petrece timpul. Fiecare te va saluta și îți va spune numele, postul pe care îl ocupă și alte informații utile, astfel încât, când vei avea nevoie de ajutor, să știi la cine să apelezi.",
+        "Vei fi introdus în sistemul și rutina prin care vei lua sarcini spre rezolvare. Sarcinile sunt pentru toate nivelurile, astfel încât începătorii vor lua sarcini mai ușoare, avansații pe cele mai interesante. Majoritatea începătorilor se obijnuiesc cu noua slujbă între 4 și 6 săptămâni urmând într-un scurt timp să se simtă ca la ei acasă, foarte comod.",
+        "Toate aceste lucruri nu vor fi noi pentru tine, deoarece la CodeTap Academy, vei face toate aceste lucruri în pregătirea ce o primești prin mentorat. Când va veni vremea să te angajezi, pentru tine o să fie doar o schimbare de adresă."
+      ]
+    }
+  }
+]

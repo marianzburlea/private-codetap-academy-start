@@ -1,6 +1,31 @@
-.title__name--first {
-  color: green;
+.intro {
+  background-color: #d52027;
+  color: #fff;
 }
-.title__name--last {
-  color: #ff9d1e;
+
+.intro__hero {
+  padding: 2rem;
+  background-image: url('/asset/image/marian-zburlea.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.intro__title {
+  font-size: 48px;
+}
+
+.intro__logo {
+  padding: 0 1rem;
+  font-size: 2rem;
+}
+
+.intro__company {
+  line-height: 2rem;
+}
+
+.intro__head {
+  padding: 1rem 0;
+  display: flex;
+  color: white;
 }

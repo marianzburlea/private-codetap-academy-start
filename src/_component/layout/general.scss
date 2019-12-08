@@ -1,10 +1,29 @@
+@import 'font';
+@import 'font-roboto';
+
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
+
 body {
+  font-family: 'Roboto';
 }
+
 .content {
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .content {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .content {
+    width: 1280px;
+  }
 }

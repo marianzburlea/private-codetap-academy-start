@@ -1,0 +1,20 @@
+-
+  const language = 'en'
+.info-list
+  each success, key in data.who
+    if data.info[key]
+      .info__list_title
+        h3=data.info[key][language].title
+      .info-list__success-content
+        .info-list__testimonial
+            each info in data.info[key][language].description
+              p=info
+    .info-list__success-content
+      h3=success.alt[language]
+      .info-list__testimonial
+        each testimonial in success.text[language]
+          p=testimonial
+    .info-list__success-image-wrapper
+      img.info-list__success-image(
+        src=`/asset/image/success/${success.path}`
+      )
