@@ -1,0 +1,42 @@
+.action {
+  grid-column: 1/-1;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+%action__button {
+  flex-grow: 1;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.action__button--chat {
+  @extend %action__button;
+  background-color: #d58c20;
+}
+
+.action__button--subscribe {
+  @extend %action__button;
+  background-color: #d52027;
+}
+
+.action__button--watch {
+  @extend %action__button;
+  background-color: #2088d5;
+}
+
+@media (min-width: 768px) {
+  .action {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .action {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,15 +1,12 @@
-.info-list__success-content {
-  grid-column: span 2;
-}
-
 .info__list_title {
-  background-color: #d52027;
+  background-color: #5c20d5;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 1rem;
   text-align: center;
+  border-radius: 0.5rem;
 }
 
 .info-list__testimonial {
@@ -18,15 +15,34 @@
 
 .info-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 16px;
   margin: 1rem 0;
 }
 
 .info-list__success-image-wrapper {
   grid-column: span 1;
+  text-align: center;
 }
 
 .info-list__success-image {
   max-width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 768px) {
+  .info-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .info-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .info-list__success-content {
+    grid-column: span 2;
+  }
 }
