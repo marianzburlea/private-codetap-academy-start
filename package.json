@@ -18,9 +18,9 @@
     "pnp": true
   },
   "config": {
-    "customUrl": "http://pug-starter.codetap.io",
-    "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
-    "deployToGithubIo": true,
+    "customUrl": "https://start.codetap.academy",
+    "githubUrl": "https://github.com/marianzburlea/private-codetap-academy-start.git",
+    "deployToGithubIo": false,
     "directory": {
       "development": "tmp",
       "production": "build",
