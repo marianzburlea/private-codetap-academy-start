@@ -13,17 +13,17 @@ body {
 }
 
 .content {
-  margin: 0 auto;
+  margin: 0 37px;
 }
 
 @media (min-width: 768px) {
   .content {
-    width: 768px;
+    margin: 0 80px;
   }
 }
 
 @media (min-width: 1280px) {
   .content {
-    width: 1280px;
+    margin: 0 140px;
   }
 }

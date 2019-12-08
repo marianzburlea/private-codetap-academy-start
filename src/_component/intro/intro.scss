@@ -29,3 +29,9 @@
   display: flex;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .intro__hero {
+    padding-bottom: 18rem;
+  }
+}
